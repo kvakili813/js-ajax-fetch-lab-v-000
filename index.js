@@ -1,4 +1,4 @@
-const username = 'jamespferguson'
+const username = 'kevinvakili'
 
 function Issue(attributes){
   this.title = attributes.title
