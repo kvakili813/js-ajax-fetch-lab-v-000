@@ -1,3 +1,11 @@
+const username = 'jamespferguson'
+
+function Issue(attributes){
+  this.title = attributes.title
+  this.body = attributes.body
+  this.url = attributes.url
+}
+
 function getIssues(data) {
   fetch(`https://api.github.com/repos/${username}/javascript-fetch-lab/issues`).
     then(resp => {
